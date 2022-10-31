@@ -11,5 +11,12 @@ It's try to give you the best way to write Great Software .
   - The object-oriented programmer says: Great software is code that is object-oriented. So there’s not a bunch of duplicate code, and each object pretty much controls its own behavior. 
   - The design-guru programmer says: “Great software is when you use tried-and-true design patterns and principles.”
 
+## Great software in 3 easy steps
+  1- Make sure your software does what the customer wants it to do.
+  2- Apply basic OO principles to add flexibility.
+  3- Strive for a maintainable, reusable design.
+
+
+
 
 

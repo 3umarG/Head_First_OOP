@@ -1,23 +1,25 @@
 package chapter1.rick_guitar;
 
-public class Guitar {
-    private String serialNumber, builder, model, type, backWood, topWood;
-    private double price;
+import chapter1.rick_guitar.enums.Builder;
+import chapter1.rick_guitar.enums.Type;
+import chapter1.rick_guitar.enums.Wood;
 
-    public Guitar(String serialNumber,
-                  double price,
-                  String builder,
-                  String model,
-                  String type,
-                  String backWood,
-                  String topWood) {
+public class Guitar {
+    // UNIQUE : user doesn't need to add them when he wants to search
+
+    private final String serialNumber;
+    private final double price;
+
+    private final GuitarSpecial guitarSpecial;
+
+    public Guitar(
+            String serialNumber,
+            double price,
+            GuitarSpecial guitarSpecial) {
+
         this.serialNumber = serialNumber;
         this.price = price;
-        this.builder = builder;
-        this.model = model;
-        this.type = type;
-        this.backWood = backWood;
-        this.topWood = topWood;
+        this.guitarSpecial = guitarSpecial;
     }
 
     public String getSerialNumber() {
@@ -28,27 +30,7 @@ public class Guitar {
         return price;
     }
 
-    public void setPrice(double newPrice) {
-        this.price = newPrice;
-    }
-
-    public String getBuilder() {
-        return builder;
-    }
-
-    public String getModel() {
-        return model;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public String getBackWood() {
-        return backWood;
-    }
-
-    public String getTopWood() {
-        return topWood;
+    public GuitarSpecial getGuitarSpecial() {
+        return guitarSpecial;
     }
 }

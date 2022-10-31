@@ -12,9 +12,9 @@ It's try to give you the best way to write Great Software .
   - The design-guru programmer says: “Great software is when you use tried-and-true design patterns and principles.”
 
 ## Great software in 3 easy steps
-  1- Make sure your software does what the customer wants it to do.
-  2- Apply basic OO principles to add flexibility.
-  3- Strive for a maintainable, reusable design.
+  - Make sure your software does what the customer wants it to do.
+  - Apply basic OO principles to add flexibility.
+  - Strive for a maintainable, reusable design.
 
 
 

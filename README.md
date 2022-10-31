@@ -18,6 +18,13 @@ It's try to give you the best way to write Great Software .
 
 ## Don’t create problems to solve problems.
 
+## What's Encapsulation ??
+Encapsulation is breaking your application into logical parts that have a clear boundary that allows an object to hide its data and methods from other objects.
+
+
+## What's Delegation ??
+Delegation is giving another object the responsibility of handling a particular task.
+
 
 
 
